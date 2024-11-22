@@ -1,10 +1,21 @@
-* { margin: 0;
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* { vertical-align: baseline;
+    font-family: inherit;
+    font-style: inherit;
+    font-size: inherit;
+    margin: 0;
     padding: 0;
+    outline: 0;
+    border:0 none;
     box-sizing: border-box;
-    color: #00FF00;
-    background-color: aqua;
+    background-origin: border-box;
+    /*The colors for background and text defined below are temporary colors used to see all changes (these colors cannot be used by any other object)*/
+    /*color:darkslategrey;*/
+    /*background-color: aqua;*/
 }
-}
+
+/* Colors to be used in the project (grey #899CA0 and darkgreen #1C2B32) */
 
 /*////////////////////////////////////////////////////////////////////////
 Table of Contents:
@@ -23,7 +34,38 @@ Table of Contents:
 /*////////////////////////
     1. Global Styles
 ////////////////////////*/
+.background-header {
+    background-image: url("/assets/images/mountains.jpg");
+    background-size: cover;
+    background-position: 0px -190px;
+}
 
+
+.poppins-light {
+    font-family: "Poppins", serif;
+    font-weight: 400;
+    font-size: 14px;
+    font-style: normal;
+    color: #1C2B32;
+}
+
+.poppins-regular {
+    font-family: "Poppins", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #1C2B32;
+}
+
+.poppins-h1-title {
+    font-family: "Poppins", serif;
+    font-weight: 700;
+    font-size: 120px;
+    font-style: normal;
+    color: #1C2B32;
+}
+
+
+/*}*/
 
 
 /*////////////////////////
@@ -39,8 +81,35 @@ Table of Contents:
 
 
 /*///////////// 3.1 Header /////////////*/
+.header-styles {
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 20px;
+    width: 1000px;
+    height: 800px;
 
 
+}
+
+.form-style{
+    margin: auto;
+    width: 50%;
+    vertical-align: center;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+    text-align: left;
+    border: 1px solid #000;
+    width: 400px;
+}
 
 /*///////////// 3.2 Testimonial /////////////*/
 
