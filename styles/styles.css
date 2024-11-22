@@ -9,7 +9,7 @@
     outline: 0;
     border:0 none;
     box-sizing: border-box;
-    background-origin: border-box;
+    /*background-origin: border-box;*/
     /*The colors for background and text defined below are temporary colors used to see all changes (these colors cannot be used by any other object)*/
     /*color:darkslategrey;*/
     /*background-color: aqua;*/
@@ -41,18 +41,12 @@ Table of Contents:
 }
 
 
-.poppins-light {
-    font-family: "Poppins", serif;
-    font-weight: 400;
-    font-size: 14px;
-    font-style: normal;
-    color: #1C2B32;
-}
 
 .poppins-regular {
     font-family: "Poppins", serif;
     font-weight: 400;
     font-style: normal;
+    font-size: 14px;
     color: #1C2B32;
 }
 
@@ -90,26 +84,42 @@ Table of Contents:
     padding-bottom: 20px;
     width: 1000px;
     height: 800px;
-
-
 }
-
+.p-style {
+    margin: 20px;
+    background-color: transparent;
+    opacity: 0;
+}
 .form-style{
+    background-color: transparent;
     margin: auto;
     width: 50%;
     vertical-align: center;
-    border-top-left-radius: 50%;
-    border-top-right-radius: 50%;
-    border-bottom-left-radius: 50%;
-    border-bottom-right-radius: 50%;
-    padding-top: 10px;
+    border-radius: 50px / 50px;
+    padding-top: 0px;
     padding-left: 20px;
-    padding-right: 20px;
-    padding-bottom: 10px;
+    padding-right: 0px;
+    padding-bottom: 0px;
     text-align: left;
-    border: 1px solid #000;
-    width: 400px;
+    border: 1px solid #1C2B32;
+    width: 456px;
+    opacity: 1;
+
+
 }
+
+.button-rounded-right {
+        background-color: #1C2B32;
+        border: 1px;
+        border-top-right-radius: 50px;
+        border-bottom-right-radius: 50px;
+        color: white;
+        padding: 30px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+    }
 
 /*///////////// 3.2 Testimonial /////////////*/
 
