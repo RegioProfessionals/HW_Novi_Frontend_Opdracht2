@@ -85,15 +85,32 @@ Table of Contents:
     width: 1000px;
     height: 800px;
 }
-.p-style {
-    margin: 20px;
+.sub-title-style {
+    padding-bottom: 28px;
+
+}
+/* We don't want the standard lightgrey placeholder color because of the mist in the image so we change it*/
+::placeholder {
+    color: #1C2B32;
+    /* Firefox adds a lower opacity so we correct this here*/
+    opacity: 1;
+}
+/*Microsoft Edge browser use a different placeholder command for the same placeholder functionality*/
+:: -ms-input-placeholder {
+    color: #1C2B32;
+}
+.input-text-style {
+    /*padding-top: 20px;*/
     background-color: transparent;
-    opacity: 0;
+    color: #1C2B32;
+    font-size: 16px;
+    padding-inline-end: 96px;
+    /*opacity: 0;*/
 }
 .form-style{
-    background-color: transparent;
     margin: auto;
     width: 50%;
+    color: #1C2B32;
     vertical-align: center;
     border-radius: 50px / 50px;
     padding-top: 0px;
@@ -102,8 +119,7 @@ Table of Contents:
     padding-bottom: 0px;
     text-align: left;
     border: 1px solid #1C2B32;
-    width: 456px;
-    opacity: 1;
+    width: 570px;
 
 
 }
@@ -114,12 +130,13 @@ Table of Contents:
         border-top-right-radius: 50px;
         border-bottom-right-radius: 50px;
         color: white;
-        padding: 30px 32px;
+        padding: 25px 28px;
         text-align: center;
         text-decoration: none;
         display: inline-block;
         font-size: 16px;
     }
+.adjust-button
 
 /*///////////// 3.2 Testimonial /////////////*/
 
