@@ -34,14 +34,6 @@ Table of Contents:
 /*////////////////////////
     1. Global Styles
 ////////////////////////*/
-.background-header {
-    background-image: url("/assets/images/mountains.jpg");
-    background-size: cover;
-    background-position: 0px -190px;
-}
-
-
-
 .poppins-regular {
     font-family: "Poppins", serif;
     font-weight: 400;
@@ -56,8 +48,17 @@ Table of Contents:
     font-size: 120px;
     font-style: normal;
     color: #1C2B32;
+    position: relative;
 }
 
+.poppins-h2-title {
+    font-family: "Poppins", serif;
+    font-weight: 600;
+    font-size: 30px;
+    font-style: normal;
+    color: #1C2B32;
+    position: relative;
+}
 
 /*}*/
 
@@ -71,10 +72,79 @@ Table of Contents:
 /*////////////////////////
     3. Areas
 ////////////////////////*/
+.main-reset-framework {
+    padding-top: 40px;
+    position: relative;
+    width:  1000px;
+    margin: auto;
+    font-family: "Poppins", serif;
+    font-weight: 400;
+    font-size: 14px;
+    font-style: normal;
+    color: #1C2B32;
+}
 
+.section1-customer-review {
+    margin: auto;
+    float: right;
+    position: relative;
+}
+blockquote {
+    padding-left: 45px;
+    margin-top: -35px;
+    margin-bottom: 30px;
+}
+
+cite {
+    position: relative;
+    bottom: 15px;
+    right: 15px;
+    padding-bottom: 100px;
+    padding-left: 38px;
+    padding-top: -10px;
+}
+
+.section1-responsive-50-percent{
+    /*image 88x88px resizing to 44x44 relative to 1000px wide means 4,4% (1000/44 = 100/4.4)*/
+    width: 4.4%;
+    height: auto;
+    margin-left: 45px;
+
+}
+
+.section1-group-quote-jane {
+    width: 100%;
+    margin-top: 30px;
+    margin left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px
+    border: none;
+    border-radius: 15px;
+    color: #1C2B32;
+    box-shadow: 0px  4px 24px rgba(0, 0, 0, 0.30);
+
+}
+.section1-group-quote-john {
+    width: 100%;
+    margin-top: 30px;
+    margin left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px
+    border: none;
+    border-radius: 15px;
+    color: #1C2B32;
+    box-shadow: 0px  4px 24px rgba(0, 0, 0, 0.30);
+}
 
 
 /*///////////// 3.1 Header /////////////*/
+.background-header {
+    background-image: url("/assets/images/mountains.jpg");
+    background-size: cover;
+    background-position: 0px -190px;
+    position: relative;
+
+
 .header-styles {
     margin: auto;
     text-align: center;
@@ -83,11 +153,13 @@ Table of Contents:
     padding-right: 30px;
     padding-bottom: 20px;
     width: 1000px;
-    height: 800px;
+    height: 1000px;
 }
 .sub-title-style {
+    padding-top: -10px;
     padding-bottom: 28px;
 
+    font-size: 16px;
 }
 /* We don't want the standard lightgrey placeholder color because of the mist in the image so we change it*/
 ::placeholder {
@@ -95,16 +167,17 @@ Table of Contents:
     /* Firefox adds a lower opacity so we correct this here*/
     opacity: 1;
 }
-/*Microsoft Edge browser use a different placeholder command for the same placeholder functionality*/
-:: -ms-input-placeholder {
+/*Microsoft Edge browser uses a different placeholder command for the same placeholder functionality*/
+::-ms-input-placeholder {
     color: #1C2B32;
 }
 .input-text-style {
     /*padding-top: 20px;*/
+    position: relative;
     background-color: transparent;
     color: #1C2B32;
     font-size: 16px;
-    padding-inline-end: 96px;
+    padding-inline-end: 98px;
     /*opacity: 0;*/
 }
 .form-style{
@@ -120,24 +193,27 @@ Table of Contents:
     text-align: left;
     border: 1px solid #1C2B32;
     width: 570px;
-
-
 }
 
 .button-rounded-right {
+        position: relative;
+        right: -1px;
         background-color: #1C2B32;
         border: 1px;
         border-top-right-radius: 50px;
         border-bottom-right-radius: 50px;
         color: white;
-        padding: 25px 28px;
+        padding: 25px 27px;
         text-align: center;
         text-decoration: none;
         display: inline-block;
         font-size: 16px;
     }
-.adjust-button
+.adjust-button {
 
+
+
+}
 /*///////////// 3.2 Testimonial /////////////*/
 
 
@@ -151,3 +227,12 @@ Table of Contents:
 
 
 /*///////////// 3.5 Footer /////////////*/
+.background-footer {
+    background-color: #1C2B32;
+    background-size: 100%;
+}
+.footer-style {
+    margin: auto;
+    text-align: center;
+    color: #fff;}
+}
