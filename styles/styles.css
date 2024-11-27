@@ -10,10 +10,7 @@
     outline: 0;
     border: 0 none;
     box-sizing: border-box;
-    /*background-origin: border-box;*/
-    /*The colors for background and text defined below are temporary colors used to see all changes (these colors cannot be used by any other object)*/
-    /*color:darkslategrey;*/
-    /*background-color: aqua;*/
+
 }
 
 /* Colors to be used in the project (grey #899CA0 and darkgreen #1C2B32) */
@@ -57,7 +54,11 @@ Table of Contents:
     font-size: 30px;
     font-style: normal;
     color: #1C2B32;
+    padding-top: 40px;
+    padding-bottom: 30px;
     position: relative;
+    Text-align: center;
+
 }
 a:hover {
     text-decoration: none;
@@ -65,7 +66,6 @@ a:hover {
 
 :link {
     color: #899CA0;
-
 }
 :visited {
     color: orangered;
@@ -133,41 +133,49 @@ cite {
 
 }
 .section1-group-quote-jane {
+    padding-top: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 40px;
     width: 100%;
     margin-top: 30px;
-    margin-left: 10px;
-    margin-right: 10px;
     margin-bottom: 10px;
     border: none;
     border-radius: 15px;
     color: #1C2B32;
     box-shadow: 0px 4px 24px rgba(0, 0, 0, 0.30);
-
+    position: relative;
 }
 
 .section1-group-quote-john {
+    padding-top: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 40px;
     width: 100%;
     margin-top: 30px;
-    margin-left: 10px;
-    margin-right: 10px;
     margin-bottom: 10px;
     border: none;
     border-radius: 15px;
     color: #1C2B32;
     box-shadow: 0px 4px 24px rgba(0, 0, 0, 0.30);
+    position: relative;
 }
 
 .section2-contact-customer-service {
-
+    position: relative;
+    top: 40px;
 }
 
 .section2-image-style {
     border-radius: 15px;
     width: 100%;
+    margin-top: 30px;
 }
 
 .section2-button-style {
     position: relative;
+    margin-top: 20px;
     background-color: #1C2B32;
     border: none;
     border-top-right-radius: 50px;
@@ -199,7 +207,7 @@ cite {
         padding-right: 30px;
         padding-bottom: 20px;
         width: 1000px;
-        height: 1000px;
+        height: 850px;
     }
 
     .sub-title-style {
