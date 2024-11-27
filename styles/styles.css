@@ -175,7 +175,7 @@ cite {
 
 .section2-button-style {
     position: relative;
-    margin-top: 20px;
+    margin-top: 15px;
     background-color: #1C2B32;
     border: none;
     border-top-right-radius: 50px;
@@ -189,6 +189,23 @@ cite {
     display: inline-block;
     font-size: 16px;
 }
+.section-FAQ {
+    margin-top: 30px;
+}
+.question-FAQ {
+    padding-bottom: 30px;
+}
+
+.answer-FAQ {
+    background-color: #899CA0;
+    border-radius: 10px;
+    margin-top: 5px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    color: #FFF;
+}
 
 
 /*///////////// 3.1 Header /////////////*/
@@ -198,7 +215,7 @@ cite {
     background-position: 0px -190px;
     position: relative;
 
-
+}
     .header-styles {
         margin: auto;
         text-align: center;
@@ -264,17 +281,14 @@ cite {
         border-top-right-radius: 50px;
         border-bottom-right-radius: 50px;
         color: white;
-        padding: 25px 27px;
+        padding: 25px 29px;
         text-align: center;
         text-decoration: none;
         display: inline-block;
         font-size: 16px;
     }
 
-    .adjust-button {
 
-
-    }
 
     /*///////////// 3.2 Testimonial /////////////*/
 
@@ -288,13 +302,21 @@ cite {
     /*///////////// 3.5 Footer /////////////*/
 
     .background-footer {
-        background-color: #1C2B32;
-        background-size: 100%;
+        position: relative;
+        padding-top: 30px;
     }
 
+
     .footer-style {
-        margin: auto;
+        background-color: #1C2B32;
+        font-family: "Poppins", serif;
+        font-weight: 400;
+        font-size: 14px;
+        font-style: normal;
+        padding-top: 30px;
+        padding-bottom: 30px;
         text-align: center;
         color: #fff;
     }
-}
+
+
